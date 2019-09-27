@@ -1,0 +1,34 @@
+.mainPage{
+   padding: 15px;
+}
+
+.cardInfoList{
+   padding-bottom: 15px;
+}
+
+.mainContent{
+   display: flex;
+   justify-content: space-between;
+}
+
+.messages{
+   width: 34%;
+}
+
+.leftSideContent{
+   width: 64%;
+}
+
+.listItem{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+}
+
+.userList{
+   width: 49%;
+}
+
+.toDoList{
+   width: 49%;
+}

@@ -1,0 +1,62 @@
+.orderStatistics{
+    background: #FFF;
+}
+
+.header{
+    border-top: 3px solid #E7EAEC;
+    border-bottom: 1px solid #F2F3F5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btnWrapper{
+    display: flex;
+}
+
+.btn{
+    background: #FFF;
+    padding: 5px;
+    display: block;
+    outline: none;
+    border: 1px solid #F2F3F5;
+}
+
+.btn:first-child{
+    border-radius: 3px 0 0 3px;
+}
+
+.btn:last-child{
+    border-radius: 0 3px 3px 0;
+}
+
+.btn:focus{
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.4);
+}
+
+.statistisInfo{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graphicImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.graphInfo{
+    width: 68%;
+}
+
+.orderList{
+    width: 30%;
+}

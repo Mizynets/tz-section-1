@@ -1,0 +1,88 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "max-len" : [2, 70, 2, {
+            "ignoreComments": true
+        }],
+        "no-console" : 2,
+        "no-alert" : 2,
+        "no-array-constructor" : 2,
+        "quotes" : [2, "single"],
+        "camelcase" : 2,
+        "yoda" : [2, "always"],
+        "eqeqeq" : [2, "always"],
+        "semi" : 2,
+        "semi-spacing" : [2,{
+            "before" : false,
+            "after" : true
+        }],
+        "space-unary-ops" : [2,{
+            "words" : true,
+            "nonwords" : false
+        }],
+        "keyword-spacing": 0,
+        "eol-last": [2, "always"],
+        "array-callback-return" : 2,
+        "complexity" : [2, {
+            "max" : 2
+        }],
+        "curly" : [2, "all"],
+        "func-style": [2, "expression"],
+        "no-var" : 2,
+        "space-before-function-paren": ["error", {
+            "anonymous": "always",
+            "named": "always",
+            "asyncArrow": "always"
+        }],
+        "padding-line-between-statements" : [
+            2,
+            { "blankLine": "always", "prev": "*", "next": "const" },
+            { "blankLine": "always", "prev": "*", "next": "return" }
+        ],
+        "space-before-blocks" : 2,
+        "space-infix-ops" : 2,
+        "lines-between-class-members": [2, "always"],
+        "key-spacing" : [
+            2,
+            {
+                "beforeColon": false,
+                "afterColon": true
+            }
+        ],
+        "comma-spacing": [
+            2,
+            {
+                "after": true
+            }
+        ],
+        "object-curly-spacing": [2, "always"],
+        "array-bracket-spacing": [2, "always"],
+        "comma-dangle": [2, {
+            "arrays": "never",
+            "objects": "always",
+            "imports": "never",
+            "exports": "never",
+            "functions": "ignore"
+        }],
+        "react/prop-types" : 0,
+        "react/state-in-constructor" : [2, "always"]
+    }
+}
