@@ -2,9 +2,9 @@
 import React from 'react';
 import style from './index.module.css';
 import CardInfoItem from '../CardInfoItem/CardInfoItem';
-import { IoIosFlash } from 'react-icons/io';
-import { IoMdReturnRight } from 'react-icons/io';
-import { IoMdReturnLeft } from 'react-icons/io';
+import { FaBolt } from 'react-icons/fa';
+import { FaLevelUpAlt } from 'react-icons/fa';
+import { FaLevelDownAlt } from 'react-icons/fa';
 import uid from 'uid';
 
 
@@ -19,7 +19,7 @@ const CardInfoList = () => {
             progressTitle: 'Total income',
             progressIndicator: 98,
             colorStyle: '#1C84C6',
-            options: <IoIosFlash style={ { color: '#1C84C6', }} />,
+            options: <FaBolt style={ { color: '#1C84C6', }} />,
          },
          {
             title: 'Orders',
@@ -28,10 +28,9 @@ const CardInfoList = () => {
             progressTitle: 'New orders',
             progressIndicator: 20,
             colorStyle: '#23C6C8',
-            options: <IoMdReturnRight 
+            options: <FaLevelUpAlt 
             style={
                     { 
-                        transform: 'rotate(-90deg)',
                         color: '#23C6C8',
                     }
                 }/>,
@@ -43,10 +42,9 @@ const CardInfoList = () => {
             progressTitle: 'New visits',
             progressIndicator: 44,
             colorStyle: '#1AB394',
-            options: <IoMdReturnRight 
+            options: <FaLevelUpAlt 
             style={
                     {
-                        transform: 'rotate(-90deg)',
                         color: '#1AB394',
                     }
                 }/>,
@@ -58,10 +56,9 @@ const CardInfoList = () => {
             progressTitle: 'In first month',
             progressIndicator: 38,
             colorStyle: '#ED5769',
-            options: <IoMdReturnLeft 
+            options: <FaLevelDownAlt 
             style={
                 {
-                    transform: 'rotate(-90deg)',
                     color: '#ED5769',
                 }
             }/>,

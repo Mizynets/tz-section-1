@@ -1,0 +1,74 @@
+
+.todoListItem{
+    background: #F3F3F4;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.spanExtra{
+  background: #1AB394;
+  padding: 2px 8px;  
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #FFF;
+  display: inline-flex;
+  align-items: center;
+}
+.todoLabel{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+}
+.done{
+  text-decoration: line-through;
+}
+.todoInput{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.todoSpan{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 18px;
+    background-color: #FFF;
+    border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.todoLabel:hover .todoInput ~ .todoSpan {
+    background-color: #ccc;
+  }
+  
+  
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .todoSpan:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .todoLabel .todoInput:checked ~ .todoSpan:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .todoLabel .todoSpan:after {
+    left: 6px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }

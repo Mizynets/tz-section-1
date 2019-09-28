@@ -1,0 +1,33 @@
+.amountColorYe{
+    background: #F8AC59;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+.amountColorGr{
+    background: #1AB394;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+.listItem{
+    display: flex;
+    padding: 10px;
+}
+
+.itemText{
+   font-size: 12px;
+   width: 25%;
+}
+.itemText:nth-child(1){
+    width: 10%;
+}
+.itemText:nth-child(2){
+    width: 40%;
+}
+.itemText:nth-child(3){
+    text-align: center
+    }
+.itemText:nth-child(4){
+    text-align: center
+}

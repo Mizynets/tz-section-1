@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleName{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.timeAgo{
+    font-size: 10px;
+    color: #7BC9BB;
+}
+
+.shortMessage{
+    font-size: 14px;
+    padding-bottom: 5px;
+
+}
+
+.date{
+    color: #9A9A9D;
+    font-size: 12px;
+}

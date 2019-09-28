@@ -1,0 +1,30 @@
+.flexItem{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.itemText{
+    font-size: 12px;
+   width: 25%;
+}
+
+.itemText:last-child{
+    width: 15%
+}
+
+.statusCancel{
+    background: #F8AC59;
+    border-radius: 3px;
+    padding: 2px 8px;    
+}
+
+.statusComplete{
+    background: #1AB394;
+    border-radius: 3px;
+    padding: 2px 8px;
+}
+.span{
+    display: flex;
+    align-items: center;
+}

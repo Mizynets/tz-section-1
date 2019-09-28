@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './index.module.css';
+import Header from '../Header';
 
 const CardInfoItem = ({
   title,
@@ -12,15 +13,14 @@ const CardInfoItem = ({
 }) => {
   return (
     <div className={style.CardInfoItem}>
-      <div className={style.header}>
-        <h5 className={style.title}>{title}</h5>
-        <span 
+      <Header title={title}>
+      <span 
         className={style.period} 
         style={{ background: colorStyle, }}>
         {period}
         </span>
-      </div>
-
+      </Header>
+    
       <div className={style.contentCartInfo}>
         <p className={style.digitalData}>{digitalData}</p>
         <div className={style.progressInfo}>

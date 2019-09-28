@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './index.module.css';
-import { IoIosFlash } from 'react-icons/io';
-import { IoMdReturnRight } from 'react-icons/io';
-import { IoMdReturnLeft } from 'react-icons/io';
+import { FaBolt } from 'react-icons/fa';
+import { FaLevelUpAlt } from 'react-icons/fa';
+import { FaLevelDownAlt } from 'react-icons/fa';
 import OrderListItem from '../OrderListItem/OrderListItem';
 
 const OrderList = () => {
@@ -15,9 +15,8 @@ const OrderList = () => {
                     title="Total orders in period"
                     progressIndicator="48%"
                     option={
-                    <IoMdReturnRight 
+                    <FaLevelUpAlt 
                         style={{
-                            transform: 'rotate(-90deg)',
                             color: '#1AB394',
                         }}                    
                     />
@@ -30,9 +29,8 @@ const OrderList = () => {
                     title="Orders in last month"
                     progressIndicator="60%"
                     option={
-                        <IoMdReturnLeft
+                        <FaLevelDownAlt
                         style={{
-                            transform: 'rotate(-90deg)',
                             color: '#1AB394',
                         }}                    
                     />
@@ -45,7 +43,7 @@ const OrderList = () => {
                     title="Monthly income from orders"
                     progressIndicator="22%"
                     option={
-                    <IoIosFlash 
+                    <FaBolt 
                     style={{
                         color: '#1AB394',
                     }}  

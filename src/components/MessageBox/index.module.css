@@ -1,0 +1,26 @@
+.messageBox{
+    background: #FFF;
+}
+
+.messageStatus{
+    padding: 30px 20px;
+    background: #F3F6FB;
+}
+
+
+.messageStatusFlex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newMessage{
+    color: #A29197;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.statusMessInfo{
+    font-size: 12px;
+    color: #A29197;
+}

@@ -3,6 +3,10 @@ import React from 'react';
 import style from './index.module.css';
 import CardInfoList from '../../components/CardInfoList';
 import OrderStatistics from '../../components/OrderStatistics';
+import UserProjectTable from '../../components/UserProjectTable';
+import MessageBox from '../../components/MessageBox';
+import SmallTodo from '../../components/SmallTodo';
+import InfoMap from '../../components/InfoMap';
 
 const MainPage = () => {
     return (
@@ -15,19 +19,19 @@ const MainPage = () => {
             </div>
             <div className={style.mainContent}>
                 <div className={style.messages}>
-
+                    <MessageBox />
                 </div>
                 <div className={style.leftSideContent}>
                     <div className={style.listItem}>
                         <div className={style.userList}>
-
+                            <UserProjectTable />
                         </div>
                         <div className={style.toDoList}>
-
+                            <SmallTodo />
                         </div>
                     </div>
                     <div className={style.transactions}>
-
+                        <InfoMap />
                     </div>
                 </div>            
             </div>
@@ -36,3 +40,4 @@ const MainPage = () => {
 };
 
 export default MainPage;
+

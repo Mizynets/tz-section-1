@@ -1,0 +1,20 @@
+.infoMap{
+    background: #FFF;
+}
+
+.transactionInfo{
+    display: flex;
+    padding: 20px 20px;
+}
+.transactionList{
+    width: 49.5%;
+}
+.transactionMap{
+    width: 49.5%;
+    
+}
+.mapImg{
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,25 @@
+
+.list{
+    list-style: none;
+    padding: 20px 20px
+}
+
+.item{
+    border-bottom: 1px solid #EFF1F2;
+}
+
+.flexItem{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.itemText{
+    font-weight: 700;
+    font-size: 12px;
+   width: 25%;
+}
+
+.itemText:last-child{
+    width: 15%
+}
