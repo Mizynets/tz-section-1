@@ -16,7 +16,9 @@ const InfoMap = () => {
                     <TransactionList />
                 </div>
                 <div className={style.transactionMap}>
-                    <img className={style.mapImg} src={transactionMap}/>
+                    <img 
+                    className={style.mapImg}
+                    src={transactionMap}/>
                 </div>
             </div>
         </div>

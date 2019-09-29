@@ -1,4 +1,3 @@
-/* eslint-disable eol-last */
 import React from 'react';
 import style from './index.module.css';
 import CardInfoItem from '../CardInfoItem/CardInfoItem';
