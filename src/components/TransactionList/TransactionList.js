@@ -8,7 +8,7 @@ const TransactionList = () => {
             <li className={style.item}>
                 <div className={style.listItem}>
                     <p className={style.itemText}>
-                            No
+                            No.
                     </p>
                     <p className={style.itemText}>
                             Transaction
@@ -35,36 +35,36 @@ const TransactionList = () => {
             <li className={style.item}>
             <TransactionListItem 
                  numberId="2"
-                 transaction="Security doors"
-                 date="16 Jule 2014"
-                 amount="483.00"
+                 transaction="Wardrobes"
+                 date="10 Jule 2014"
+                 amount="327.00"
                  amountColor="green"
                 />
             </li>
             <li className={style.item}>
             <TransactionListItem 
                  numberId="3"
-                 transaction="Security doors"
-                 date="16 Jule 2014"
-                 amount="483.00"
+                 transaction="Set of tools"
+                 date="12 Jule 2014"
+                 amount="125.00"
                  amountColor="yellow"
                 />
             </li>
             <li className={style.item}>
             <TransactionListItem 
                  numberId="4"
-                 transaction="Security doors"
-                 date="16 Jule 2014"
-                 amount="483.00"
+                 transaction="Panoramic pictures"
+                 date="22 Jule 2013"
+                 amount="344.00"
                  amountColor="green"
                 />
             </li>
             <li className={style.item}>
             <TransactionListItem 
                  numberId="5"
-                 transaction="Security doors"
-                 date="16 Jule 2014"
-                 amount="483.00"
+                 transaction="Phones"
+                 date="24 Jule 2013"
+                 amount="235.00"
                  amountColor="green"
                 />
             </li>
@@ -72,15 +72,12 @@ const TransactionList = () => {
                 <li className={style.item}>
                 <TransactionListItem 
                  numberId="6"
-                 transaction="Security doors"
-                 date="16 Jule 2014"
-                 amount="483.00"
+                 transaction="Monitors"
+                 date="26 Jule 2013"
+                 amount="100.00"
                  amountColor="green"
                 />
                 </li>
-                
-                
-            
         </ul>
     );
 };
