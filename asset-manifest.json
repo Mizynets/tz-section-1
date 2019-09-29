@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Mizynets/tz-section-1/static/css/main.a44999e3.chunk.css",
-    "main.js": "/Mizynets/tz-section-1/static/js/main.ad082e53.chunk.js",
-    "main.js.map": "/Mizynets/tz-section-1/static/js/main.ad082e53.chunk.js.map",
-    "runtime-main.js": "/Mizynets/tz-section-1/static/js/runtime-main.5605559c.js",
-    "runtime-main.js.map": "/Mizynets/tz-section-1/static/js/runtime-main.5605559c.js.map",
-    "static/js/2.dca676fd.chunk.js": "/Mizynets/tz-section-1/static/js/2.dca676fd.chunk.js",
-    "static/js/2.dca676fd.chunk.js.map": "/Mizynets/tz-section-1/static/js/2.dca676fd.chunk.js.map",
-    "index.html": "/Mizynets/tz-section-1/index.html",
-    "precache-manifest.39b8b2de3a7d4bf2c80585a93612f37e.js": "/Mizynets/tz-section-1/precache-manifest.39b8b2de3a7d4bf2c80585a93612f37e.js",
-    "service-worker.js": "/Mizynets/tz-section-1/service-worker.js",
-    "static/css/main.a44999e3.chunk.css.map": "/Mizynets/tz-section-1/static/css/main.a44999e3.chunk.css.map",
-    "static/media/graphOrderStatistic.png": "/Mizynets/tz-section-1/static/media/graphOrderStatistic.17dfdbbf.png",
-    "static/media/transactionMap.png": "/Mizynets/tz-section-1/static/media/transactionMap.962d0d1e.png"
+    "main.css": "/tz-section-1/static/css/main.a44999e3.chunk.css",
+    "main.js": "/tz-section-1/static/js/main.21e08bce.chunk.js",
+    "main.js.map": "/tz-section-1/static/js/main.21e08bce.chunk.js.map",
+    "runtime-main.js": "/tz-section-1/static/js/runtime-main.f6967f84.js",
+    "runtime-main.js.map": "/tz-section-1/static/js/runtime-main.f6967f84.js.map",
+    "static/js/2.dca676fd.chunk.js": "/tz-section-1/static/js/2.dca676fd.chunk.js",
+    "static/js/2.dca676fd.chunk.js.map": "/tz-section-1/static/js/2.dca676fd.chunk.js.map",
+    "index.html": "/tz-section-1/index.html",
+    "precache-manifest.e9e52bbdd81ff91cefa96eb2c563dd39.js": "/tz-section-1/precache-manifest.e9e52bbdd81ff91cefa96eb2c563dd39.js",
+    "service-worker.js": "/tz-section-1/service-worker.js",
+    "static/css/main.a44999e3.chunk.css.map": "/tz-section-1/static/css/main.a44999e3.chunk.css.map",
+    "static/media/graphOrderStatistic.png": "/tz-section-1/static/media/graphOrderStatistic.17dfdbbf.png",
+    "static/media/transactionMap.png": "/tz-section-1/static/media/transactionMap.962d0d1e.png"
   }
 }
