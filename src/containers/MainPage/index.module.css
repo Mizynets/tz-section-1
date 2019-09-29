@@ -1,5 +1,6 @@
 .mainPage{
    padding: 15px;
+   position: relative;
 }
 
 .cardInfoList{
@@ -31,4 +32,13 @@
 
 .toDoList{
    width: 49%;
+}
+
+.sideDrawer{
+   position: absolute;
+   right: 0;
+   top: 23px;
+   padding: 4px;
+   border-radius: 15px 0 0 15px;
+   background: #1AB394;
 }

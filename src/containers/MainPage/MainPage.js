@@ -7,12 +7,16 @@ import UserProjectTable from '../../components/UserProjectTable';
 import MessageBox from '../../components/MessageBox';
 import SmallTodo from '../../components/SmallTodo';
 import InfoMap from '../../components/InfoMap';
+import { FaCogs } from 'react-icons/fa';
 
 const MainPage = () => {
     return (
         <div className={style.mainPage}>
             <div className={style.cardInfoList}>
                 <CardInfoList />
+            </div>
+            <div className={style.sideDrawer}>
+             <FaCogs style={{ color: '#FFF', }}/>
             </div>
             <div className={style.orderStatistics}>
                 <OrderStatistics />
